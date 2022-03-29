@@ -1,0 +1,75 @@
+*{
+  background-color: black;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table{
+  border-collapse: collapse;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 404px;
+  width: 404px;
+  margin-top: -202px;
+  margin-left: -202px;
+}
+
+table, th, td{
+  border: 1px solid white;
+}
+
+input {
+  display: block;
+  padding: 0; 
+  margin: 0; 
+  border: 0; 
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+input:focus{
+  outline: none;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+}
+
+.result-text{
+  font-size: 25;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 215px;
+  margin-left: -60px;
+}
+
+.solve-button{
+  width: 120px;
+  height: 60px;
+  font-size: 25;
+  font-weight: bold;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -275px;
+  margin-left: 40px;
+}
+
+.next-button{
+  width: 120px;
+  height: 60px;
+  font-size: 25;
+  font-weight: bold;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -275px;
+  margin-left: -160px;
+}

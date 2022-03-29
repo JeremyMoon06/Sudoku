@@ -1,0 +1,31 @@
+.sign-in{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 404px;
+  width: 404px;
+  margin-top: -202px;
+  margin-left: -202px;
+}
+
+.sign-in input{
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.sign-in button {
+  background-color: #22a5f1;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+}
+
+.sign-in button:hover{
+  opacity: .5;
+}
